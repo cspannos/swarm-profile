@@ -7,7 +7,7 @@ This repository the personal website for Chris Spannos and is hosted on SWARM's 
 These instructions assume that you have both Geth and SWARM installed on your machine, that you are running a basic SWARM node and have created a Geth account. One you have your node up, to upload a directory, run the command: 
 
 ```
-swarm --recursive --defaultpath /home/shevek/Downloads/profile/index.html --bzzapi http://swarm-gateways.net/ up /home/shevek/Downloads/profile/
+swarm --recursive --defaultpath /path/to/your/directory/index.html --bzzapi http://swarm-gateways.net/ up /path/to/your/directory
 
 ```
 **Important note:** These instructions are an adaptation from SWARM documentation. It is reccomeded to go to SWARM's original documentation and follow instructions there: https://swarm-guide.readthedocs.io/en/latest/simpleuser.html#how-do-i-upload-and-download 
